@@ -1,9 +1,28 @@
-ai_worldviews
+AI Worldviews
 ==============================
 
-Open Phil's AI Worldviews Contest & AI Governance Hackathon #6
+[Open Phil's AI Worldviews Contest]() & 
+[AI Governance Hackathon #6]()
 
-Project Organization
+## QUICKSTART
+
+Make sure you have [Anaconda](https://www.anaconda.com/) and Python's `pip` installed.
+
+```
+conda create --name aigov
+conda activate aigov
+pip install openai
+pip install python-dotenv && pip install pathlib
+conda install -c conda-forge jupyterlab
+pip install langchain
+pip install pyperclip
+```
+
+Then store the temporary API key from the Hackathon in your `.env` file as "OPENAI_API_KEY"
+
+[Used this Medium article to get setup](https://medium.com/sopmac-ai/gpt-4-api-reference-guide-e4ba18bcbc5f) with `notebooks/Testing.ipynb` and `src/gpt4_interaction.py`
+
+### Project Organization
 ------------
 
     ├── LICENSE
